@@ -1,0 +1,4 @@
+pages:
+  script: echo "Deploying Marimo"
+  rules:
+    - if: $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH
